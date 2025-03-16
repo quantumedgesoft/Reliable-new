@@ -1,0 +1,43 @@
+.nav-link {
+  transition: 0.3s;
+}
+.nav-link.active,
+.nav-link:hover {
+  background-color: #0dcaf0; /* Bootstrap bg-info color */
+  color: white !important;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+.hero-image-main-div {
+  max-width: 50%vw;
+  height: 540px;
+}
+.img-left {
+  width: 45%;
+  z-index: 7;
+  display: block;
+  left: 0;
+  top: 17.1px;
+}
+.img-midile {
+  width: 50%;
+  z-index: 9;
+  left: 20%;
+  bottom: 0;
+  opacity: 1;
+}
+.img-right {
+  width: 45%;
+  z-index: 8;
+  right: 0%;
+  top: 98.1px;
+}
+.hero-img {
+  transform-origin: 50% 50%;
+  transform: translate(0px, 0px);
+  border-radius: 1.5rem;
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  height: 400px;
+}
